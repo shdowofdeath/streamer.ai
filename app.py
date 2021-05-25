@@ -12,7 +12,7 @@ def averagecolor(image):
 
 
 def predict(image):
-    img = cv2.imread(path+"/"+filename)
+    img = cv2.imread(image)
     img_features = averagecolor(img)
     calculated_distances = []
     for card in (trainX2):
