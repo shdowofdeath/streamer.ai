@@ -3,7 +3,7 @@ import numpy as np
 from PIL import Image
 import cv2 
 
-st.title('הפרוייקט של AI')
+st.title('Storganizer')
 st.balloons()
 # st.write("בבקשה להעלות תמונה  ")
 
